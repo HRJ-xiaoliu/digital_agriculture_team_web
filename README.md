@@ -5,6 +5,6 @@
 
   # HRJ-xiaoliu's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[hrj-xiaoliu.github.io/digital_agriculture_team_web](https://hrj-xiaoliu.github.io/digital_agriculture_team_web)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
