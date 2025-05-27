@@ -1,5 +1,5 @@
 ---
-name: Jane Smith
+name: 熊航
 image: images/photo.jpg
 role: principal-investigator
 affiliation: University of Colorado
