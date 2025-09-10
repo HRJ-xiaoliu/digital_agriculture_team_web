@@ -1,81 +1,83 @@
 ---
+title: Where data and biology meet
 ---
 
-# HRJ-xiaoliu's Website
+# Where data and biology meet
 
-An engaging 1-3 sentence description of your lab.
+格林实验室（Greene Lab）是​科罗拉多大学医学院的一个研究团队，致力于利用计算科学​（computation）来解答生物学和医学中的重要问题。
+我们专注于整合公开可用的​大数据，​开发新的计算方法来分析这些数据，并创建工具使得每位生物学家都能运用这些资源。
+
+{%
+  include figure.html
+  image="images/team/group-photo-1.jpg"
+  width="100%"
+%}
 
 {% include section.html %}
 
 ## Highlights
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We use data science to answer important questions in biology and medicine.
+In all of our research, we prioritize transparency, rigor, and reproducibility.
 
 {%
   include button.html
   link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
+  text="See what we've published"
+  icon="fas fa-arrow-right"
   flip=true
-  style="bare"
 %}
-
+{:.center}
 {% endcapture %}
-
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/backgrounds/laptop-paper.jpg"
   link="research"
-  title="Our Research"
+  title="Biology + AI → insight"
   text=text
 %}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We believe that anyone around the world should be able to use and extend our work.
+We push to make software, tools, datasets, etc. that are freely available and openly licensed.
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
+  link="tools"
+  text="See our highlighted resources"
+  icon="fas fa-arrow-right"
   flip=true
-  style="bare"
 %}
-
+{:.center}
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  image="images/home/code-photo.jpg"
+  link="resources"
+  title="Open source, all the way"
   flip=true
-  style="bare"
   text=text
 %}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are a team of enthusiastic researchers that want to push the frontier of data science.
+We strive to build an inclusive environment for research, and recognize the value of diversity in the process of discovery.
 
 {%
   include button.html
   link="team"
   text="Meet our team"
-  icon="fa-solid fa-arrow-right"
+  icon="fas fa-arrow-right"
   flip=true
-  style="bare"
 %}
-
+{:.center}
 {% endcapture %}
-
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team/group-photo-2.jpg"
   link="team"
-  title="Our Team"
+  title="The next generation of data scientists"
   text=text
 %}
